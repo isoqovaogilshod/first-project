@@ -1,0 +1,552 @@
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/inter/Inter-VariableFont_slnt\wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #272d38;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/*/////// Header /////*/
+
+/* navbar */
+
+header {
+  padding-top: 4.8rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: none;
+}
+
+.logo {
+  font-weight: 700;
+  max-width: 17rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+
+.nav-bars {
+  display: inline-block;
+}
+
+.nav-xmark {
+  display: none;
+}
+
+.nav-bars {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* hero section */
+.intro {
+  margin-top: 9.5rem;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  align-items: center;
+}
+
+.intro-text h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 100%;
+  max-width: 37.8rem;
+  text-align: center;
+}
+
+.intro-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 36.8rem;
+  text-align: center;
+}
+
+.btn {
+  background: #8eadd5;
+  border-radius: 0.8rem;
+  padding: 1rem 2.4rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
+.intro-img img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4.8rem;
+}
+
+#home h6 {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 12rem;
+  color: #667085;
+}
+
+#home .logos {
+  display: flex;
+  justify-content: space-between;
+  background: #f6f6f6;
+  border-radius: 0.8rem;
+  padding: 2.4rem 1.6rem;
+  max-width: 38rem;
+  align-items: center;
+  text-align: center;
+  gap: 2.9rem;
+  margin: 0 auto;
+  margin-top: 2.6rem;
+}
+
+#about .text-img {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .text h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  line-height: 100%;
+  margin-top: 8.8rem;
+  max-width: 38rem;
+  text-align: center;
+}
+
+#about .text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  max-width: 38rem;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+}
+
+#about .text i {
+  transform: rotate(90.1deg);
+  font-size: 2.5rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+
+#about .about-img img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+}
+
+#testimonials h5 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  margin-top: 12rem;
+}
+
+#testimonials h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1.6rem;
+  max-width: 38rem;
+}
+
+#testimonials .testimonials-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+
+.testimonials-card .card {
+  display: flex;
+  flex-direction: column;
+  background: #f6f6f6;
+  max-width: 37.4rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  align-items: center;
+  margin-top: 1.6rem;
+  padding: 3.2rem 4.5rem 3.2rem 4.8rem;
+}
+
+.testimonials-card .card img {
+  padding-bottom: 0.1rem;
+}
+
+.testimonials-card .card h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding-top: 1rem;
+}
+
+.testimonials-card .card p {
+  max-width: 32.8rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 2.7rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+#contact .contact-text {
+  background: #f6f6f6;
+  border-radius: 2rem;
+  padding: 5.6rem 3.5rem 4.9rem;
+}
+
+#contact .contact-img {
+  display: none;
+}
+
+#contact .contact-text h3 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  max-width: 29.9rem;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: none;
+  line-height: 100%;
+}
+
+#contact .contact-text p {
+  font-weight: 400;
+  margin-top: 3.2rem;
+  font-size: 1.6rem;
+  max-width: 30.9rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+#contact .contact-text .btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4.8rem;
+}
+
+footer {
+  background: #f6f6f6;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 12.8rem;
+  padding-top: 10.4rem;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7.2rem;
+}
+
+.footer-contact h4 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+.footer-contact .Agency p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 150%;
+  max-width: 19rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.footer-contact ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2.4rem;
+  margin-top: 3.2rem;
+}
+
+.footer-contact a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 100%;
+}
+
+.footer-bottom p {
+  padding-top: 9.2rem;
+  padding-bottom: 2.4rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 11.25px;
+  }
+
+  @media screen and (min-width: 1240px) {
+    .container {
+      max-width: 1065px;
+    }
+
+    nav {
+      max-width: 1075px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 40.9rem;
+    }
+
+    .nav-bars {
+      display: none;
+    }
+
+    .navbar-left .nav-links {
+      display: inline-block;
+      display: flex;
+      column-gap: 4.4rem;
+    }
+    .navbar-right .logo {
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 2.4rem;
+      max-width: 17rem;
+    }
+    .nav-links a {
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .intro .intro-text h1 {
+      font-size: 5.4rem;
+      text-align: left;
+      display: flex;
+      max-width: 50rem;
+      margin-left: -4rem;
+    }
+
+    .intro .intro-img img{
+      max-width: 45rem;
+      margin-bottom: 4rem;
+    }
+    .intro .intro-text p {
+      font-size: 1.8rem;
+      max-width: 49.5rem;
+      text-align: left;
+      margin-left: -4rem;
+    }
+
+    .btn {
+      margin-right: 40rem;
+    }
+    #home h6 {
+      font-size: 1.6rem;
+    }
+
+    #home .logos {
+      max-width: 85.5rem;
+    }
+    #about {
+      margin-top: 10.6rem;
+    }
+
+    #about .text-img {
+      display: flex;
+      flex-direction: row;
+      column-gap: 13.9rem;
+    }
+
+    #about .text-img:first-child {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    #about .text-img h2 {
+      font-size: 4.8rem;
+      max-width: 43.5rem;
+      text-align: left;
+    }
+
+    #about .text-img p {
+      font-size: 1.6rem;
+      max-width: 37.2rem;
+      text-align: left;
+      margin-right: 6rem;
+    }
+
+    #about .text-img i {
+      transform: none;
+      margin-right: 40rem;
+    }
+
+    #about .text {
+      margin-top: 3rem;
+    }
+
+    #testimonials h5 {
+      font-size: 1.6rem;
+    }
+
+    #testimonials h2 {
+      font-size: 4.8rem;
+      max-width: 43.5rem;
+    }
+
+    #testimonials .testimonials-card {
+      display: flex;
+      flex-direction: row;
+      column-gap: 0.8rem;
+      margin-left: -5rem;
+    }
+
+    #testimonials .testimonials-card .card {
+      max-width: 30.5rem;
+      margin-top: 3.8rem;
+    }
+    #testimonials .testimonials-card .card h3 {
+      font-size: 1.8rem;
+    }
+
+    #testimonials .testimonials-card .card p {
+      font-size: 1.4rem;
+      max-width: 28rem;
+    }
+
+    #contact .contact-img {
+      display: inline-block;
+    }
+    #contact {
+      display: flex;
+      flex-direction: row;
+      column-gap: 5rem;
+      padding: 0rem 1.9rem 0rem 2.5rem;
+      background: #f6f6f6;
+      border-radius: 20px;
+      margin-right: 2rem;
+    }
+    #contact .contact-text {
+      background: none;
+    }
+    #contact .contact-text h3 {
+      font-size: 4rem;
+      margin-top: 3rem;
+      text-align: left;
+      max-width: 50rem;
+    }
+
+    #contact .contact-text p {
+      font-size: 1.6rem;
+      max-width: 36rem;
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+    #contact .contact-text .btn {
+      margin-right: 22rem;
+      margin-top: 2rem;
+    }
+
+    #contact img {
+      max-width: 40rem;
+    }
+
+    footer .footer-contact {
+      display: flex;
+      flex-direction: row;
+      column-gap: 14rem;
+    }
+    .footer-contact .Agency h4 {
+      text-align: left;
+      font-size: 1.8rem;
+    }
+
+    .footer-contact .Agency p {
+      font-size: 1.6rem;
+      text-align: left;
+      max-width: 19.5rem;
+    }
+
+    .footer-contact h4 {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+
+    .footer-contact ul li {
+      font-size: 1.6rem;
+      text-align: left;
+    }
+
+    .footer-bottom p {
+      margin-left: 34rem;
+      font-size: 1.6rem;
+    }
+  }
+}
